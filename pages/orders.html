@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ButterBloom Orders</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/orderstyle.css">
+    <link rel="stylesheet" href="../style/musicstyle.css">
+    <link rel="stylesheet" href="../style/navstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<!-- NAV BAR -->
+<nav class="navbar">
+    <div class="logo">
+        <img src="../images/logo3.PNG" alt="butterbloom-logo">
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#find">Find Us</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a class="active" href="orders.html">My Orders</a></li>
+    </ul>
+
+    <button class="order-btn">
+      <a href="menu.html">Order Now</a>
+    </button>
+</nav>
+
+<!-- HAMBURGER -->
+<nav class="hamburger" id="hamburger">
+    <button class="hamburger-btn" id="menuToggle" aria-label="Toggle Navigation" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+
+    <ul class="ham-nav-links" id="ham-nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#find">Find Us</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a class="active" href="orders.html">My Orders</a></li>
+    </ul>
+</nav>
+
+<!-- CART -->
+
+<div class="top-two">
+
+<div class="top-left desktop-view">
+ <h1>Track, savor & relish. </h1>
+ <p id="top-left-tag">From freshly placed to freshly delivered, keep track of every bite of happiness.</p>
+ <div class="need-help">Need help?
+    <button class="contact-us">Contact Us</button>
+ </div>
+</div>
+
+<div class="top-right">
+    <div class="cart-section">
+        <div class="cart-heading">
+            <div>
+                <h2>Your Cart</h2>
+                <p>Items waiting to be checked out.</p>
+            </div>
+            <span class="cart-count">0 items</span>
+        </div>
+
+        <div class="cart-items">
+            <div class="empty-cart">Your cart is empty.</div>
+        </div>
+
+        <div class="cart-footer">
+            <span>Subtotal</span>
+            <strong class="cart-total">₹0</strong>
+            <button class="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+<!-- MY ORDERS -->
+
+<div class="my-order">
+
+    <h2 class="orders-heading">Order History</h2>
+    
+    <div class="top-right-btn">
+        <button class="tab active" data-filter="all">All Orders</button>
+    
+        <button class="tab" data-filter="ongoing">Ongoing</button>
+    
+        <button class="tab" data-filter="completed">Completed</button>
+    
+        <button class="tab" data-filter="cancelled">Cancelled</button>
+    </div>
+    
+    <!-- Orders Container -->
+    
+        <div class="orders-container">
+    
+            <div class="empty-orders hide" role="status" aria-live="polite">
+                Nothing's here!
+            </div>
+    
+        </div>
+
+</div>
+
+<div class="top-left phone-view">
+ <h1>Track, savor & relish. </h1>
+ <p id="top-left-tag">From freshly placed to freshly delivered, keep track of every bite of happiness.</p>
+ <div class="need-help">Need help?
+    <button class="contact-us">Contact Us</button>
+ </div>
+</div>
+
+<!-- CONTACT POPUP -->
+
+<div class="contact-popup" id="contactPopup">
+
+    <div class="contact-box">
+
+        <button class="close-popup" id="closePopup">&times;</button>
+
+        <h2>Contact Us</h2>
+
+        <p>We'll get back to you as soon as possible.</p>
+
+        <form id="contactForm">
+
+            <input type="text" id="userName" placeholder="Your Name" required>
+
+            <input type="email" id="userEmail" placeholder="Email Address" required>
+
+            <textarea id="userMessage" placeholder="Your Message" rows="5" required></textarea>
+
+            <button type="submit" class="send-btn">
+                Send
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+
+<footer>
+
+    <div class="footer-logo">
+        ButterBloom
+    </div>
+
+    <p>
+        Crafted with ❤️ & freshly brewed coffee.
+    </p>
+
+    <div class="footer-links">
+
+        <a href="https://instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://facebook.com" target="_blank">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+
+        <a href="https://x.com" target="_blank">
+            <i class="fa-brands fa-x-twitter"></i>
+        </a>
+
+        <a href="https://linkedin.com" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+
+        <a href="https://github.com/anuragpasayat/zairza-project.git" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 ButterBloom. All rights reserved. &nbsp;|&nbsp; <a href="admin.html" style="color: #D8B26E; text-decoration: none; font-weight: 500;"><i class="fa-solid fa-lock" style="font-size: 0.8rem;"></i> Staff Portal</a>
+    </p>
+
+</footer>
+
+<button id="topBtn">
+    ↑
+</button>
+
+<!-- MUSIC -->
+
+<div class="music-player" id="musicPlayer">
+    <img src="../images/retro-music-player.jpg" alt="Music">
+
+    <audio id="bgMusic" loop>
+        <source src="../music/L-dre-type5.wav" type="audio/mpeg">
+    </audio>
+</div>
+
+<script src="../script/cart.js"></script>
+<script src="../script/order.js"></script>
+<script src="../script/script.js"></script>
+<script src="../script/music.js"></script>
+
+
+</body>
+</html>

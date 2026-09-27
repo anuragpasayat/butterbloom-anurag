@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ButterBloom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/navstyle.css">
+    <link rel="stylesheet" href="style/musicstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<!-- NAV BAR -->
+<nav class="navbar">
+    <div class="logo">
+        <img src="images/logo3.PNG" alt="butterbloom-logo">
+    </div>
+
+    <ul class="nav-links">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#find">Find Us</a></li>
+        <li><a href="./pages/menu.html">Menu</a></li>
+        <li><a href="./pages/orders.html">My Orders</a></li>
+    </ul>
+
+    <button class="order-btn">
+      <a href="./pages/menu.html">Order Now</a>
+    </button>
+</nav>
+
+<!-- HAMBURGER -->
+<nav class="hamburger" id="hamburger">
+    <button class="hamburger-btn" id="menuToggle" aria-label="Toggle Navigation" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+
+    <ul class="ham-nav-links" id="ham-nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#find">Find Us</a></li>
+        <li><a href="./pages/menu.html">Menu</a></li>
+        <li><a href="./pages/orders.html">My Orders</a></li>
+    </ul>
+</nav>
+
+<!-- HERO SECTION -->
+
+<section class="hero">
+
+    <div class="hero-content" >
+
+        <h1>
+            Fresh Coffee.<br>
+            Homemade Food.
+        </h1>
+
+        <p>
+
+            From creamy pasta to freshly brewed coffee,
+            we've got something for every craving.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <button class="primary">
+             <a href="./pages/menu.html"> Order Now</a>
+            </button>
+
+            <button class="secondary">
+               <a href="./pages/orders.html" >My Orders</a>
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-right">
+        <img src="images/img1.png" alt="ButterBloom cafe interior and dishes">
+    </div>
+
+</section>
+
+<div class="divider"></div>
+
+
+<!-- STATS -->
+
+<section class="stats reveal">
+
+    <div class="stats-heading">
+        <span>OUR JOURNEY</span>
+        <h2>ButterBloom by Numbers</h2>
+    </div>
+
+    <div class="stats-grid">
+
+        <div class="stat">
+            <h2>12k+</h2>
+            <p>Happy Customers</p>
+        </div>
+
+        <div class="stat">
+            <h2>25+</h2>
+            <p>Signature Dishes</p>
+        </div>
+
+        <div class="stat">
+            <h2>12</h2>
+            <p>Expert Chefs</p>
+        </div>
+
+        <div class="stat">
+            <h2>4.3 ★</h2>
+            <p>Customer Rating</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+    <span class="section-tag phone-about">
+        OUR STORY
+    </span>
+
+    <h2 class="phone-about">
+        About Café
+    </h2>
+
+
+    <div class="about-images reveal">
+        <img src="images/img2.jpeg" class="img-small top" alt="Cafe pastry">
+        <img src="images/img3.jpeg" class="img-small bottom" alt="Cafe coffee">
+    </div>
+
+
+    <div class="about-content reveal">
+
+        <span class="section-tag desktop-about">
+            OUR STORY
+        </span>
+
+        <h2 class="desktop-about">
+            About Café
+        </h2>
+
+        <p>
+            We believe good food creates beautiful memories. 
+            Whether you're here for your morning coffee, a bowl of creamy pasta, or simply a quiet evening, 
+            we promise warmth in every bite. 
+            At ButterBloom, every dish is prepared with fresh ingredients 
+            and every cup is brewed with care, creating a cozy space where conversations flow, 
+            moments are shared, and every visit feels like coming home.
+        </p>
+
+        <button class="learn-btn">
+            Learn More →
+        </button>
+
+    </div>
+
+</section>
+
+<!-- POPULAR ITEMS -->
+
+<section class="popular-section reveal" id="popular">
+
+    <div class="section-header">
+        <span>BEST SELLERS</span>
+        <h2>Popular Items</h2>
+        <p>Freshly prepared with premium ingredients.</p>
+    </div>
+
+    <div class="carousel-container">
+        <div class="carousel">
+
+            <div class="card">
+                <img src="https://b2958125.smushcdn.com/2958125/wp-content/uploads/white-sauce-pasta-with-cheese.jpg?lossy=1&strip=1&webp=1" alt="White Sauce Pasta">
+
+                <div class="card-content">
+                    <h3>White Sauce Pasta</h3>
+                    <p>Creamy parmesan & herbs</p>
+
+                    <div class="price-row">
+                        <span class="rating">★★★★★</span>
+                        <span class="price">₹250</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.yummytummyaarthi.com/wp-content/uploads/2024/01/mac-and-cheese-1.jpg" alt="Mac-n-cheese">
+
+                <div class="card-content">
+                    <h3>Mac-n-cheese</h3>
+                    <p>Creamy parmesan & herbs</p>
+
+                    <div class="price-row">
+                        <span class="rating">★★★★</span>
+                        <span class="price">₹200</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/drinks/coldcoffee.jpg" alt="Cold Coffee">
+
+                <div class="card-content">
+                    <h3>Cold Coffee</h3>
+                    <p>A chilled fusion of coffee and creamy milk, a warm Indian classic that feels like home in every sip.</p>
+
+                    <div class="price-row">
+                        <span class="rating">★★★★</span>
+                        <span class="price">₹200</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/desserts/cheesecake.jpg" alt="Cheese Cake">
+
+                <div class="card-content">
+                    <h3>Cheese Cake</h3>
+                    <p>A rich and creamy classic cheesecake with a buttery crumb crust.</p>
+
+                    <div class="price-row">
+                        <span class="rating">★★★★</span>
+                        <span class="price">₹200</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/pizza/paneertikkapizza.jpg" alt="Paneer Tikka Pizza">
+
+                <div class="card-content">
+                    <h3>Paneer Tikka Pizza</h3>
+                    <p>Smoky tandoori paneer cubes on a crisp, golden hand-tossed crust.</p>
+
+                    <div class="price-row">
+                        <span class="rating">★★★★</span>
+                        <span class="price">₹200</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <a href="./pages/menu.html" class="menu-btn">
+        View Full Menu →
+    </a>
+
+</section>
+
+<!-- TESTIMONIALS -->
+
+<section class="testimonials">
+
+    <div class="section-header">
+        <span>HAPPY CUSTOMERS</span>
+        <h2>What People Say</h2>
+        <p>Every smile begins with great food.</p>
+    </div>
+
+    <div class="testimonial-grid reveal">
+
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+
+            <p>
+                The pasta was absolutely delicious and the coffee was one of the
+                best I've had. Cozy atmosphere too!
+            </p>
+
+            <h4>— Ananya Sharma</h4>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+
+            <p>
+                Beautiful interiors, quick service and amazing desserts.
+                Definitely coming back.
+            </p>
+
+            <h4>— Rahul Verma</h4>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+
+            <p>
+                Loved the ambience. Perfect place to work while enjoying
+                a hot cappuccino.
+            </p>
+
+            <h4>— Priya Singh</h4>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- VISIT US -->
+
+<section class="location reveal" id="find">
+
+    <div class="location-text">
+
+        <span>VISIT US</span>
+
+        <h2>Come Say Hello!</h2>
+
+        <p>
+            OUTR<br>
+            Bhubaneswar, Odisha
+        </p>
+
+        <p>
+            Monday - Sunday<br>
+            9:00 AM – 8:00 PM
+        </p>
+
+        <a href="https://maps.app.goo.gl/BBpHZrZ3RLoeZN6t5" target="_blank" class="primary">
+            Get Directions
+        </a>
+
+    </div>
+
+    <div class="location-map">
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1185.2196387924635!2d85.77643682173945!3d20.27662476105991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a7001a814341%3A0x3f0c73b7deecc398!2sNesCafe%20OUTR!5e0!3m2!1sen!2sin!4v1782449483945!5m2!1sen!2sin" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-logo">
+        ButterBloom
+    </div>
+
+    <p>
+        Crafted with ❤️ & freshly brewed coffee.
+    </p>
+
+    <div class="footer-links">
+
+        <a href="https://instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://facebook.com" target="_blank">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+
+        <a href="https://x.com" target="_blank">
+            <i class="fa-brands fa-x-twitter"></i>
+        </a>
+
+        <a href="https://linkedin.com" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+
+        <a href="https://github.com/anuragpasayat/zairza-project.git" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 ButterBloom. All rights reserved. &nbsp;|&nbsp; <a href="pages/admin.html" style="color: #D8B26E; text-decoration: none; font-weight: 500;"><i class="fa-solid fa-lock" style="font-size: 0.8rem;"></i> Staff Portal</a>
+    </p>
+
+</footer>
+<button id="topBtn">
+    ↑
+</button>
+
+<!-- MUSIC -->
+
+<div class="music-player" id="musicPlayer">
+    <img src="./images/retro-music-player.jpg" alt="Music">
+
+    <audio id="bgMusic" loop>
+        <source src="./music/L-dre-type5.wav" type="audio/mpeg">
+    </audio>
+</div>
+
+<script src="./script/script.js"></script>
+<script src="./script/music.js"></script>
+
+
+</body>
+
+
+
+
+</html>

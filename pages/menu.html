@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ButterBloom Menu</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/menustyle.css">
+    <link rel="stylesheet" href="../style/musicstyle.css">
+    <link rel="stylesheet" href="../style/navstyle.css">
+</head>
+<body>
+    
+<!-- NAV BAR -->
+<nav class="navbar">
+    <div class="logo">
+        <img src="../images/logo3.PNG" alt="butterbloom-logo">
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#find">Find Us</a></li>
+        <li><a class="active" href="menu.html">Menu</a></li>
+        <li><a href="orders.html">My Orders</a></li>
+    </ul>
+
+    <button class="order-btn">
+      <a href="menu.html">Order Now</a>
+    </button>
+</nav>
+
+<!-- HAMBURGER -->
+<nav class="hamburger" id="hamburger">
+    <button class="hamburger-btn" id="menuToggle" aria-label="Toggle Navigation" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+
+    <ul class="ham-nav-links" id="ham-nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#find">Find Us</a></li>
+        <li><a class="active" href="menu.html">Menu</a></li>
+        <li><a href="orders.html">My Orders</a></li>
+    </ul>
+</nav>
+
+<div class="header">
+    <img  id="heart" src="../images/heart.svg">
+    <div class="ourmenu">
+
+        <div class="sparkles">
+        <img id="shine" src="../images/sparkles.svg">
+    <p id="mwl">made with love</p>
+    <img id="shine" src="../images/sparkles.svg">
+    </div>
+
+    <div class="menu">
+        <div id="our">Our</div>
+        <div id="menu">Menu</div>
+    
+    </div>
+    <p id="tagline"> Every bite tells a story.Explore our cozy spread of drinks, bites <br>  & sweets- crafted to make you feel right at home.</p>
+
+    <div class="buttons">
+         <button class="filter-btn active" data-target="all">All</button>
+         <button class="filter-btn" data-target="drink" >Drinks</button>
+         <button class="filter-btn" data-target="burger">Burgers</button>
+         <button class="filter-btn" data-target="sandwich" >Sandwiches</button>
+         <button class="filter-btn" data-target="pizza">Pizza</button>
+         <button class="filter-btn" data-target="pasta">Pasta</button>
+         <button class="filter-btn" data-target="side">Sides</button>
+         <Button class="filter-btn" data-target="desserts" >Desserts</Button>
+    </div>
+
+</div>
+</div>
+
+<!-- Drinks and Sips -->
+
+<section class="menu-section drink">
+<div class="section-heading">
+    <h1 id="drinks">Drinks</h1>
+    <h1 id="sips">& Sips</h1>
+    <div id="line"></div>
+</div>
+
+<div class="menuGrid" id="drinksContainer">
+
+</div>
+
+</section>
+
+<!-- Sandwiched and Toasties -->
+
+<section class="menu-section sandwich">
+
+    <div class="section-heading">
+        <h1 id="drinks">Sandwiches</h1>
+        <h1 id="sips">& Toasties</h1>
+        <div id="line"></div>
+    </div>
+
+    <div class="menuGrid" id="sandwichContainer">
+
+    </div>
+
+</section>
+
+<!-- Burgers and Buns -->
+
+<section class="menu-section burger">
+
+    <div class="section-heading">
+        <h1 id="drinks">Burgers</h1>
+        <h1 id="sips">& Buns</h1>
+        <div id="line"></div>
+    </div>
+
+    <div class="menuGrid" id="burgerContainer">
+
+    </div>
+
+</section>
+
+<!-- Pizza and Slices -->
+
+<section class="menu-section pizza">
+
+    <div class="section-heading">
+        <h1 id="drinks">Pizza</h1>
+        <h1 id="sips">& Slices</h1>
+        <div id="line"></div>
+    </div>
+
+    <div class="menuGrid" id="pizzaContainer">
+
+    </div>
+
+</section>
+
+<!-- Pasta and Bowls -->
+
+<section class="menu-section pasta">
+
+    <div class="section-heading">
+        <h1 id="drinks">Pasta</h1>
+        <h1 id="sips">& Bowls</h1>
+        <div id="line"></div>
+    </div>
+
+    <div class="menuGrid" id="pastaContainer">
+
+    </div>
+
+</section>
+
+<!-- Sides and Snacks -->
+
+<section class="menu-section side">
+
+    <div class="section-heading">
+        <h1 id="drinks">Sides</h1>
+        <h1 id="sips">& Snacks</h1>
+        <div id="line"></div>
+    </div>
+
+    <div class="menuGrid" id="sideContainer">
+
+    </div>
+
+</section>
+
+<!-- Desserts and Sweets -->
+
+<section class="menu-section desserts">
+
+    <div class="section-heading">
+        <h1 id="drinks">Desserts</h1>
+        <h1 id="sips">& Sweets</h1>
+        <div id="line"></div>
+    </div>
+
+    <div class="menuGrid" id="dessertsContainer">
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<div class="footer">
+    <p id="hungry">still hungry?</p>
+    <h1 id="cat">Order your favourites right now</h1>
+    <p id="footertagline">Fresh,warm & made with love- delivered or ready to pick up</p>
+    <div class="footerbutton">
+        <button id="ordernow" >
+            <a href="orders.html">My Orders</a>
+        </button>
+        <button id="visitus" >
+            <a href="https://maps.app.goo.gl/BBpHZrZ3RLoeZN6t5" target="_blank">Visit Us</a>
+        </button>
+    </div>
+    <p style="margin-top: 25px; font-size: 0.85rem; color: #D8B26E;">
+        © 2026 ButterBloom. &nbsp;|&nbsp; <a href="admin.html" style="color: #D8B26E; text-decoration: none; font-weight: 500;">Staff Portal</a>
+    </p>
+</div>
+
+
+<!-- CART PREVIEW -->
+
+<div class="cart-preview" id="cartPreview">
+    <div>
+        <h4 id="cartCount">1 Item</h4>
+        <p id="cartPrice">₹245</p>
+    </div>
+
+    <div class="arrow">
+        View Cart →
+    </div>
+</div>
+
+<!-- TAKE TO TOP -->
+
+<button id="topBtn">
+    ↑
+</button>
+    
+<!-- MUSIC -->
+
+<div class="music-player" id="musicPlayer">
+    <img src="../images/retro-music-player.jpg" alt="Music">
+
+    <audio id="bgMusic" loop>
+        <source src="../music/L-dre-type5.wav" type="audio/mpeg">
+    </audio>
+</div>
+
+
+<script src="../script/script.js"> </script>
+<script src="../script/cart.js"> </script>
+<script src="../script/menu.js"> </script>
+<script src="../script/music.js"> </script>
+
+
+    </body>
+</html>
